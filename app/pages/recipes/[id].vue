@@ -86,7 +86,7 @@ useSeoMeta({
     ogTitle: data.value?.name,
     ogDescription: 'Recipes for you to cook!',
     ogImage: data.value?.image,
-    ogUrl: `http://localhost:3000/recipes/${data.value?.id}`,
+    ogUrl: `https://ratatouille-recipe-app.vercel.app/recipes/${data.value?.id}`,
     twitterTitle: data.value?.name,
     twitterDescription: 'Recipes for you to cook!',
     twitterImage: data.value?.image,
