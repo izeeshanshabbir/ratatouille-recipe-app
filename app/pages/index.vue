@@ -44,11 +44,11 @@ useSeoMeta({
     description: "Recipes for you to cook!",
     ogTitle: "Ratatouille",
     ogDescription: "Recipes for you to cook!",
-    ogImage: "https://ratatouille-recipe-app.vercel.app/ratatouille.png",
+    ogImage: "https://ratatouille-recipe-app.vercel.app/_vercel/image?url=%2Fratatouille.png&w=320&q=100",
     ogUrl: `https://ratatouille-recipe-app.vercel.app/`,
     twitterTitle: "Ratatouille",
     twitterDescription: "Recipes for you to cook!",
-    twitterImage: "https://ratatouille-recipe-app.vercel.app/ratatouille.png",
+    twitterImage: "https://ratatouille-recipe-app.vercel.app/_vercel/image?url=%2Fratatouille.png&w=320&q=100",
     twitterCard: "summary",
 });
 const scrollToRecipes = () => {
