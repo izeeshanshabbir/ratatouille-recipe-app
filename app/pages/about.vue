@@ -12,4 +12,17 @@
     </main>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+useSeoMeta({
+    title: "Ratatouille",
+    description: "Recipes for you to cook!",
+    ogTitle: "Ratatouille",
+    ogDescription: "Recipes for you to cook!",
+    ogImage: "https://ratatouille-recipe-app.vercel.app/ratatouille.png",
+    ogUrl: `https://ratatouille-recipe-app.vercel.app/`,
+    twitterTitle: "Ratatouille",
+    twitterDescription: "Recipes for you to cook!",
+    twitterImage: "https://ratatouille-recipe-app.vercel.app/ratatouille.png",
+    twitterCard: "summary",
+});
+</script>
